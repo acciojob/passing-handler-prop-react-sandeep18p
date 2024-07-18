@@ -4,6 +4,7 @@ import "../styles/Selection.css";
 const Selection = (props) => {
   const [selectionStyle, updateSelectionStyle] = useState({});
   return (
+    <div className="hero">
     <div
       className="fix-box"
       style={selectionStyle}
@@ -13,7 +14,9 @@ const Selection = (props) => {
     >
       <h2 className="subheading">Selection</h2>
     </div>
+    </div>
   );
 };
+
 
 export default Selection;
